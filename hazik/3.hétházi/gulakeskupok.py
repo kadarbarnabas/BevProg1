@@ -8,7 +8,7 @@ def teglalapT(a,b):
 
 def körT(r):
     
-    körTer = r * pi * pi
+    körTer = r ** pi
     
     return  körTer
 
@@ -29,5 +29,7 @@ def main():
     
     print(f"A(z) {m} egységnyi magas gúlának {round(gV, 2)} egysényi a térfogata")
     print(f"A(z) {m} egységnyi magas kúpnak {round(kV, 2)} egysényi a térfogata")
+    
+    
 if __name__ == '__main__':
     main()
